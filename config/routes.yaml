@@ -1,0 +1,11 @@
+index:
+    path: /
+    controller: App\Controller\AegisController::index
+    
+import:
+    path: /import
+    controller: App\Controller\AegisController::import
+    
+show:
+    path: /show/{sort_by}/{sort_order}
+    controller: App\Controller\AegisController::show
